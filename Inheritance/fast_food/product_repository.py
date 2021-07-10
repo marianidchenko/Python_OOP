@@ -1,4 +1,4 @@
-from project.product import Product
+from food.product import Product
 
 
 class ProductRepository:
@@ -20,7 +20,7 @@ class ProductRepository:
                 break
 
     def __repr__(self):
-        result  = []
+        result = []
         for product in self.products:
             line = f"{product.name}: {product.quantity}"
             result.append(line)

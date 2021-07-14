@@ -1,3 +1,5 @@
+from project.animal import Animal
+
 class Zoo:
     def __init__(self, name, budget, animal_capacity, workers_capacity):
         self.name = name
@@ -10,3 +12,6 @@ class Zoo:
 
     def add_animal(self, animal, price):
         if self.__budget - price >= 0:
+            self.animals.append(animal)
+            self.__budget -= price
+            return f"{animal} the {TODO} added to the zoo"

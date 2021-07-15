@@ -1,4 +1,4 @@
-from project.worker import Worker
+from Encapsulation.zoo.worker import Worker
 
 
 class Keeper(Worker):

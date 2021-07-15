@@ -1,4 +1,4 @@
-from project.animal import Animal
+from Encapsulation.zoo.animal import Animal
 
 
 class Lion(Animal):

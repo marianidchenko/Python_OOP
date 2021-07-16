@@ -1,4 +1,4 @@
-from hotel_rooms.room import Room
+from StaticAndClassMethods.hotel_rooms.room import Room
 
 
 class Hotel:

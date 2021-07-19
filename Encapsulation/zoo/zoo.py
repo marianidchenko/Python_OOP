@@ -24,7 +24,7 @@ class Zoo:
         elif self.__budget < price:
             return "Not enough budget"
         else:
-            return "Not enough space for animal"
+            return "Not enough space for animals"
 
     def hire_worker(self, worker):
         if self.__workers_capacity > len(self.workers):

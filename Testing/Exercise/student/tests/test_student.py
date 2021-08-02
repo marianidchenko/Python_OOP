@@ -20,6 +20,11 @@ class StudentTests(TestCase):
         self.assertEqual("Course and course notes have been added.", result)
         self.assertEqual("note1", self.student.courses['course1'])
 
+    def test_add_course_that_has_not_been_added_and_notes_2(self):
+        result = self.student.enroll("course1", "note1", 'Y')
+        self.assertEqual("Course and course notes have been added.", result)
+        self.assertEqual("note1", self.student.courses['course1'])
+
     def test_add_existing_course(self):
         self.student.enroll("course1", "n", "N")
         result = self.student.enroll("course1", "n")

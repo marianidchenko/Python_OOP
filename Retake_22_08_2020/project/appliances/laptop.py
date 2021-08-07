@@ -1,4 +1,4 @@
-from Retake_22_08_2020.project.appliances.appliance import Appliance
+from project.appliances.appliance import Appliance
 
 
 class Laptop(Appliance):

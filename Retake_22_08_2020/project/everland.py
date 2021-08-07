@@ -1,4 +1,4 @@
-from Retake_22_08_2020.project.rooms.room import Room
+from project.rooms.room import Room
 
 
 class Everland:

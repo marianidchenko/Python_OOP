@@ -1,4 +1,4 @@
-from project.appliances.appliance import Appliance
+from Retake_22_08_2020.project.appliances.appliance import Appliance
 
 
 class TV(Appliance):
